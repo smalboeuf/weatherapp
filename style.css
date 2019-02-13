@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(#3399ff, white);
+    color: black;
+    font-family: 'Patua One', cursive;
+    color: white;
+}
+
+.location, .temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature{
+    flex-direction: column;
+}
+.degree-icon{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-icon span{
+    padding: 5px;
+    font-size: 2rem;
+}
+.temperature-number{
+    font-size: 2rem;
+}
+
+.temperature-description{
+    font-size: 2rem;
+}
+
+.panel{
+    width: 40rem;
+    background-color: #333333;
+}
+.center-content{
+    padding-left: 15rem;
+}
+.location h1{
+    padding: 3rem;
+}
